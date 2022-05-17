@@ -1,5 +1,4 @@
 # Conditional Execution
-
 hrs = input("Enter Hours:")
 h = float(hrs)
 a = input("Enter the Rate:")
@@ -8,4 +7,10 @@ if h <= 40:
  	print( h  * b)
 elif h > 40:
 	print(40* b + (h-40)*1.5*b)
+
+
+
+
+
+
 
