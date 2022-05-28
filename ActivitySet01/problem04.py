@@ -7,10 +7,3 @@ if h <= 40:
  	print( h  * b)
 elif h > 40:
 	print(40* b + (h-40)*1.5*b)
-
-
-
-
-
-
-

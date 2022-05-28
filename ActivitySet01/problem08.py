@@ -10,5 +10,6 @@ for line in fh:
     count = count + 1
     total = total + number
 
+
 average = total/count
 print("Average spam confidence:",average)
