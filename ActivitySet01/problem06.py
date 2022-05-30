@@ -7,7 +7,7 @@ while True:
     if num == "done":
         break
     try:
-        num=int(num)
+      num=int(num)
         b.append(num)
     except:    
         print("Invalid input")
