@@ -12,7 +12,7 @@ for line in handle:
     if email in counts :
         counts[email] = 1 + counts[email]
     else :
-        counts.update({email:1})
+         counts.update({email:1})
 max = 0
 value = ""
 for i in counts:
