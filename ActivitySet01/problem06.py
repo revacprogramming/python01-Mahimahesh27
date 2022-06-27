@@ -8,7 +8,7 @@ while True:
         break
     try:
       num=int(num)
-        b.append(num)
+      bappend(num)
     except:    
         print("Invalid input")
 largest=max(b)
