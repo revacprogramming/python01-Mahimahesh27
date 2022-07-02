@@ -1,20 +1,19 @@
 #3B
 
-
-marks=float(input("Enter the marks obtained"))
-if marks<0 or marks>100:
-    print("Invalid marks")
-elif marks<=35:
+s=float(input("Enter the s obtained"))
+if s<0 or s>100:
+    print("Invalid s")
+elif s<=35:
     print("Grade F")
-elif marks>=36 and marks<=50:
+elif s>=36 and s<=50:
     print("Grade E")
-elif marks>=51 and marks<=60:
+elif s>=51 and s<=60:
     print("Grade D")
-elif marks>=61 and marks<=70:
+elif s>=61 and s<=70:
     print("Grade C")
-elif marks>=71 and marks<=80:
+elif s>=71 and s<=80:
     print("Grade B")
-elif marks>=81 and marks<=90:
+elif s>=81 and s<=90:
     print("Grade A")
 else:
     print("Grade O - Outstanding")
