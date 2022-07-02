@@ -1,19 +1,18 @@
 #3B
 
-s=float(input("Enter the s obtained="))
-if s<0 or s>100:
-    print("Invalid s")
-elif s<=35:
-    print("Grade F")
-elif s>=36 and s<=50:
-    print("Grade E")
-elif s>=51 and s<=60:
-    print("Grade D")
-elif s>=61 and s<=70:
-    print("Grade C")
-elif s>=71 and s<=80:
-    print("Grade B")
-elif s>=81 and s<=90:
-    print("Grade A")
+score = input("Enter Score: ")
+s =  float(score)
+x = 'Error'
+if s >= 0.9:
+	x = 'A'
+elif s >=0.8:
+	x='B'
+elif s >=0.7:
+	x='C'
+elif s >= 0.6:
+	x='D'
+elif s < .6:
+	x ='F'
 else:
-    print("Grade O - Outstanding")
+	x ="Out of Range"
+print (x)
