@@ -1,6 +1,6 @@
 #3B
 
-s=float(input("Enter the s obtained"))
+s=float(input("Enter the s obtained="))
 if s<0 or s>100:
     print("Invalid s")
 elif s<=35:
