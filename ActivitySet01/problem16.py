@@ -1,6 +1,5 @@
 # Databases
 # https://www.py4e.com/lessons/database
-
 import sqlite3
 conn = sqlite3.connect(':memory:')
 c = conn.cursor()
