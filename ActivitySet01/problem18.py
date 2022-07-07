@@ -1,5 +1,4 @@
 #3B
-
 score = input("Enter Score: ")
 s =  float(score)
 x = 'Error'
